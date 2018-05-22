@@ -1,0 +1,65 @@
+.main {
+  z-index: 2;
+}
+
+#overlay {
+  /* position: fixed; /* Sit on top of the page content */
+  display: none; /* Hidden by default */
+  width: 100vw; /* Full width (cover the whole page) */
+  height: 100vh; /* Full height (cover the whole page) */
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.5); /* Black background with opacity */
+  z-index: 3; /* Specify a stack order in case you're using a different order for other elements */
+  cursor: pointer; /* Add a pointer on hover */
+  justify-content: center;
+  align-content: center;
+}
+
+#menuwrap {
+  display: none;
+  height: 100%;
+  width: 30%;
+  position: fixed;
+  top: 0;
+  z-index: 4;
+  transition: 0.5s;
+  background-color: pink;
+  /* border: brown solid ; */
+}
+
+#menucontainer {
+  padding: 15% 0 2% 25%;
+  width: 98%;
+  height: 100%;
+  display: content;
+  text-align: left;
+  transition: 0.3s;
+  /* border: blue dotted; */
+  position: absolute;
+  right: 10px;
+  margin-right: 20px;
+}
+
+body {
+  overflow: hidden;
+}
+
+.box {
+  max-width: 70vw;
+  padding: 30px;
+  margin: 0 auto;
+  position: relative;
+  top: 50%;
+  font-size: 30px;
+  line-height: 1.5;
+  transform: translateY(-50%);
+  perspective: 400px;
+}
+
+.source {
+  color: skyblue;
+  margin: 0 auto;
+}

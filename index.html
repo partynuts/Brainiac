@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>Brainiac</title>
+  <link rel="stylesheet" href="stylesheet.css" />
+
+</head>
+
+<body>
+
+
+  <div class="main">
+    <div id="overlay">
+      <div id="menuwrap">
+        <a href="javascript:void(0)" class="closebtn">&times;</a>
+        <p>Your Score is </p>
+        <button type="button" name="button">New Game</button>
+        <button type="button" name="button">See High Scores</button>
+      </div>
+    </div>
+
+    <div class="button-box">
+      <button class="button" id="count-down-btn">Play!</button>
+      <audio id="audiofile" preload="auto">
+    <source src="beep.mp3" />
+    </audio>
+      <audio id="audiofile2" preload="auto">
+    <source src="beeplong.mp3" />
+    </audio>
+      <!-- <button class="button" id="count-up-btn" >Start counting up!</button> -->
+    </div>
+
+    <div id="out"></div>
+    <div class="inputUser">
+      <input class="userInput" type="text" name="userWord">
+    </div>
+    <div class="outputUser">
+      <p class="results">
+
+      </p>
+    </div>
+  </div>
+
+  <!-- <div class="announce">Game starts in -->
+  <!--<span id="time"> </span></div> -->
+
+  <div id="round">
+
+  </div>
+  <div id="music">
+    <audio id="sally" src="sally3.mp3" loop="loop"></audio>
+    <!-- <iframe id="video" width="486" height="273" frameborder="0" src="https://www.youtube.com/embed/6A2V9Bu80J4?rel=0&amp;start=1&amp;showsearch=0&amp;autohide=1&amp;border=0&amp;loop=1&amp;playlist=6A2V9Bu80J4" allowfullscreen=""></iframe> -->
+    <!-- in der src URL nach rel=0&amp;  autoplay=1&amp; einsetzen für autoplay-->
+  </div>
+
+  <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+  <script type="text/javascript" src="./script.js"></script>
+  <script type="text/javascript" src="./script2.js"></script>
+
+</body>
+
+</html>
