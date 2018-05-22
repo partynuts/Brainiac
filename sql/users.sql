@@ -6,5 +6,5 @@ create table users(
   last varchar(250) not null,
   email varchar(250) not null unique,
   pw varchar(250) not null,
-  profilePic VARCHAR(500),
+  profilePic VARCHAR(500)
 );
