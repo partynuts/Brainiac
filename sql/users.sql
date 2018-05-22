@@ -7,5 +7,4 @@ create table users(
   email varchar(250) not null unique,
   pw varchar(250) not null,
   profilePic VARCHAR(500),
-  bio VARCHAR(500)
 );
